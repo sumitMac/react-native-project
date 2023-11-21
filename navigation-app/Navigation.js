@@ -7,11 +7,11 @@ const Tab = createBottomTabNavigator();
 function TabGroup() {
   return (
     <Tab.Navigator>
-      <Tab.Screen name="Feed1" component={Feed1} />
-      <Tab.Screen name="Feed2" component={Feed1} />
-      <Tab.Screen name="Feed3" component={Feed1} />
-      <Tab.Screen name="Feed4" component={Feed1} />
-      <Tab.Screen name="Feed5" component={Feed1} />
+      <Tab.Screen name="Home" component={Feed1} />
+      <Tab.Screen name="Search" component={Feed1} />
+      <Tab.Screen name="Post" component={Feed1} />
+      <Tab.Screen name="Like" component={Feed1} />
+      <Tab.Screen name="About" component={Feed1} />
     </Tab.Navigator>
   );
 }
